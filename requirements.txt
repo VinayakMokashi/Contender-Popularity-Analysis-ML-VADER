@@ -1,0 +1,32 @@
+# Contender Popularity Analysis — Python dependencies
+# Developed and tested with Python 3.9.13
+# Install with:  pip install -r requirements.txt
+
+# --- Data handling ---
+pandas
+numpy
+
+# --- Data collection (see note below) ---
+# snscrape scraped tweets without the official API. Following X/Twitter's 2023
+# API changes it no longer returns data, so the collection cells cannot be
+# re-run. The pre-collected datasets are provided in Raw_Tweets.zip.
+snscrape
+pyppeteer
+
+# --- Natural Language Processing ---
+nltk
+vaderSentiment
+langdetect
+gensim            # Word2Vec embeddings
+
+# --- Machine Learning ---
+scikit-learn
+xgboost
+
+# --- Visualisation ---
+matplotlib
+seaborn
+wordcloud
+
+# --- Utilities ---
+tqdm
